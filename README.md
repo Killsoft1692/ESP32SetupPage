@@ -9,3 +9,10 @@ ESP32-wroom-32
 http://micropython.org/resources/firmware/esp32-20190608-v1.11-37-g62f004ba4.bin
 
 #### Tested only with esp32 boards
+
+## Q&A:
+* Q: How to reset all settings?
+* A: Connect `PIN 12` to the `GROUND PIN`.
+
+* Q: How to connect esp32 board to your WiFi network?
+* A: Connect to `Setup` WiFi network (password isn't required). After connect to 192.168.4.1 in your browser and fill all the necessary fields.
